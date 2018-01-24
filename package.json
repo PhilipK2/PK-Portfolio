@@ -12,7 +12,12 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "deploy": "npm run build&&gh-pages -d build"
+
     },
-    "homepage": "https://<PhilipK2>.github.io/<PK-Portfolio>"
+    "homepage": "https://<PhilipK2>.github.io/<PK-Portfolio>",
+    "devDependencies": {
+        "gh-pages": "^1.1.0"
+    }
 }
